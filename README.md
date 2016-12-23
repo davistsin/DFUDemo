@@ -27,7 +27,7 @@ Demo中依赖我的另一个低功耗蓝牙库，同时也欢迎star。谢谢。
 ###Step2:创建DFU的Service服务
 
 【图】
-
+![image](https://github.com/qindachang/DFUDemo/blob/master/image/20161223163555.png)
 
 需要值得注意的是，AndroidManifest.xml文件中有Service标签
 
