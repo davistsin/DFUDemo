@@ -1,5 +1,9 @@
 #BluetoothLE DFU Demo
 
+<img src="https://github.com/qindachang/DFUDemo/blob/master/image/S61130-16564431.jpg" width = "320" height = "568" alt="截屏" align=center />
+
+---
+
 功能描述：硬件升级/空中升级/DFU
 
 Demo运行环境：Android Studio 2.2.3
@@ -20,13 +24,12 @@ Demo中依赖我的另一个低功耗蓝牙库，同时也欢迎star。谢谢。
 
 在这里，笔者所使用来自于自己的低功耗蓝牙库：
 
-    compile 'com.qindachang:BluetoothLELibrary:0.4.1'
+    compile 'com.qindachang:BluetoothLELibrary:0.4.2'
 
 连接蓝牙过程不再叙述。如果你想懒汉试开发蓝牙，欢迎使用我的蓝牙库。
 
 ###Step2:创建DFU的Service服务
 
-【图】
 ![image](https://github.com/qindachang/DFUDemo/blob/master/image/20161223163555.png)
 
 需要值得注意的是，AndroidManifest.xml文件中有Service标签
